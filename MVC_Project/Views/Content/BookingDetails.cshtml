@@ -1,0 +1,21 @@
+﻿@model MVC_Project.Models.Ticket;
+
+
+
+
+<div class="card text-center">
+    <div class="card-header">
+        <h1 style="color:darkred">YourTicket</h1>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Ticket ID: @Model.Ticket_Id</h5>
+        <p class="card-text"><strong>User ID:</strong> @Model.UserId</p>
+        <p class="card-text"><strong>Match ID:</strong> @Model.MatchId</p>
+        <p class="card-text"><strong>Match Name:</strong> @Model.Match.Name</p>
+        <p class="card-text"><strong>Teams:</strong> @Model.Match.TeamA vs @Model.Match.TeamB</p>
+        <p class="card-text"><strong>Date:</strong> @Model.Match.Date.ToString("MM/dd/yyyy")</p>
+        <p class="card-text"><strong>Location:</strong> @Model.Match.Location</p>
+        <p class="card-text"><strong>Remaining Tickets:</strong> @Model.Match.AvailableTickets</p>
+    </div>
+</div>
+

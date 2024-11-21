@@ -1,0 +1,30 @@
+﻿@model Match
+<h2 style="color:darkred">Delete Match </h2>
+<div class="card" style="height:300px;display: flex;
+flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+
+    <h4 style="color:darkred">Are you sure you want to delete this match?</h4>
+    <div>
+        <h5 >Match Name: @Model.Name</h5>
+        <h5 >Teams: @Model.TeamA vs @Model.TeamB</h5>
+        <h5 >Location: @Model.Location</h5>
+        <h5 >Date: @Model.Date.ToString("MM/dd/yyyy")</h5>
+    </div>
+
+   
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Cancel", "AdminPanel")
+        </div>
+    }
+
+</div>
+
+
+
+
+

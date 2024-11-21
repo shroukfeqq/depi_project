@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVC_Project.Models.Ticket>
+
+@{
+    
+
+    // Retrieve the user's name from the claims
+    var userName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value;
+}
+
+<h2 style="color:darkred">Hello, @userName! Here are your booked tickets:</h2>
+
+@if (!Model.Any())
+{
+    <p>You haven't booked any tickets yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Ticket ID</th>
+                <th>Match</th>
+                <th>Teams</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+                    <td>@ticket.Ticket_Id</td>
+                    <td>@ticket.Match.Name</td>
+                    <td>@ticket.Match.TeamA vs @ticket.Match.TeamB</td>
+                    <td>@ticket.Match.Date.ToString("MM/dd/yyyy")</td>
+                    <td>@ticket.Match.Location</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

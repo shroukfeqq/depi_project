@@ -1,0 +1,56 @@
+﻿
+@model Match
+
+<div class="container" style="height: 100vh;">
+    <div class="row justify-content-center align-items-center h-100">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center" style="color: darkblue;">
+                    Create Match
+                </div>
+                <div class="card-body">
+                    <form asp-action="SaveMatch" asp-controller="AdminPanel" method="post">
+                        <div class="form-group">
+                            <label asp-for="Name" style="color:darkblue">Match Name</label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TeamA" style="color:darkblue">Team A Name</label>
+                            <input asp-for="TeamA" class="form-control" />
+                            <span asp-validation-for="TeamA" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TeamB" style="color:darkblue">Team B Name</label>
+                            <input asp-for="TeamB" class="form-control" />
+                            <span asp-validation-for="TeamB" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Date" style="color:darkblue">Match Date</label>
+                            <input asp-for="Date" class="form-control" />
+                            <span asp-validation-for="Date" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Location" style="color:darkblue">Match Location</label>
+                            <input asp-for="Location" class="form-control" />
+                            <span asp-validation-for="Location" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="AvailableTickets" style="color:darkblue">Available Tickets</label>
+                            <input asp-for="AvailableTickets" class="form-control" />
+                            <span asp-validation-for="AvailableTickets" class="text-danger"></span>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

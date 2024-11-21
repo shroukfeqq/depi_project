@@ -1,0 +1,51 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Our App </h1>
+    
+</div>
+ *@
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@* 
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="card bg-light text-center" style="min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+                <h1 class="display-4 font-weight-bold">Welcome To Our App</h1>
+               
+            </div>
+        </div>
+    </div>
+</div> *@
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <!-- Card with background image and centered welcome message -->
+            <div class="card text-center text-white"
+                 style="min-height: 100vh;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       background-image: url('/images/download.jfif'); /* Set your background image path */
+                       background-size: cover;
+                       background-position: center;
+                       background-repeat: no-repeat;">
+
+                <!-- Welcome message -->
+                <h1 class="display-4 font-weight-bold bg-White p-4" ">
+                    <p>We are glad You are With us</p>
+                    Welcome To Our App
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,14 @@
+﻿@model List<Match>
+
+
+
+@foreach (var match in Model)
+{
+    <div style="height:250px;display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center" class="card">
+        <h1 style="color:darkred" class="card-title">@match.TeamA vs @match.TeamB</h1>
+        <h6 class="card-text">Date: @match.Date</h6>
+        <h6 class="card-text">Available Tickets: @match.AvailableTickets</h6>
+        <a href="@Url.Action("Edit", "AdminPanel", new { id = match.Match_Id })" class="btn btn-warning ">Edit</a>
+        <a href="@Url.Action("Delete", "AdminPanel", new { id = match.Match_Id })" class="btn btn-danger mt-1">Delete</a>
+    </div>
+}

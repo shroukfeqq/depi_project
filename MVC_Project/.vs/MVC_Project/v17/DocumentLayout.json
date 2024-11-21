@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\content\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\content\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\adminpanel\\send success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\adminpanel\\send success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\adminpanel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\adminpanel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\adminpanel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\adminpanel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\adminpanel\\creatematch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\adminpanel\\creatematch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\adminpanel\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\adminpanel\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\content\\matchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\content\\matchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\content\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\content\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\mypage\\usertickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\mypage\\usertickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\role\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\role\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\role\\allroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\role\\allroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\views\\role\\newrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:views\\role\\newrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\controllers\\mypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:controllers\\mypagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\mvc_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:mvc_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\migrations\\20241019123822_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:migrations\\20241019123822_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|c:\\users\\ascom\\desktop\\project\\mvc_project\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2D5D46-2F62-42AB-A4F7-5B2A4D2BF323}|MVC_Project.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:22:53.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPanelController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\AdminPanelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminPanelController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\AdminPanelController.cs",
+              "RelativeToolTip": "Controllers\\AdminPanelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:45:12.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContentController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "Controllers\\ContentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:12:28.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:58:26.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T15:18:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:21:07.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T08:20:29.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T21:09:00.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:26:48.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T12:21:20.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "Models\\Match.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Models\\Match.cs",
+              "RelativeToolTip": "Models\\Match.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA3wBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:35:29.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwC0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:31:33.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\BookingDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Content\\BookingDetails.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\BookingDetails.cshtml",
+              "RelativeToolTip": "Views\\Content\\BookingDetails.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:52:25.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T18:19:46.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Send Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Send Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\Send Success.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Send Success.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\Send Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:07:02.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T16:12:35.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateMatch.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\CreateMatch.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\CreateMatch.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\CreateMatch.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\CreateMatch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:06:49.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\AdminPanel.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\AdminPanel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T19:03:23.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\AdminPanel\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T15:06:58.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:11:37.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:46:37.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T15:18:44.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MatchList.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\MatchList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Content\\MatchList.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\MatchList.cshtml",
+              "RelativeToolTip": "Views\\Content\\MatchList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T20:28:54.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Content\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Content\\Details.cshtml",
+              "RelativeToolTip": "Views\\Content\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T13:20:47.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwDwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T13:06:00.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserTickets.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\MyPage\\UserTickets.cshtml",
+              "RelativeDocumentMoniker": "Views\\MyPage\\UserTickets.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\MyPage\\UserTickets.cshtml",
+              "RelativeToolTip": "Views\\MyPage\\UserTickets.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T13:19:55.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\AddAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\AddAdmin.cshtml",
+              "RelativeToolTip": "Views\\Role\\AddAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T18:16:15.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AllRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\AllRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\AllRoles.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\AllRoles.cshtml",
+              "RelativeToolTip": "Views\\Role\\AllRoles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T21:09:42.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\NewRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\NewRole.cshtml",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Views\\Role\\NewRole.cshtml",
+              "RelativeToolTip": "Views\\Role\\NewRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T18:49:13.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:30:35.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MyPageController.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\MyPageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MyPageController.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Controllers\\MyPageController.cs",
+              "RelativeToolTip": "Controllers\\MyPageController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:20:11.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RoleViewModel.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\ViewModels\\RoleViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T16:28:50.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241019123822_mig.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Migrations\\20241019123822_mig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241019123822_mig.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Migrations\\20241019123822_mig.cs",
+              "RelativeToolTip": "Migrations\\20241019123822_mig.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:38:22.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:41:02.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MVC_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\MVC_Project.csproj",
+              "RelativeDocumentMoniker": "MVC_Project.csproj",
+              "ToolTip": "C:\\Users\\ascom\\Desktop\\Project\\MVC_Project\\MVC_Project.csproj",
+              "RelativeToolTip": "MVC_Project.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T21:00:16.98Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

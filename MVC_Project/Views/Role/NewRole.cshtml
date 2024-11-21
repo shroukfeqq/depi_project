@@ -1,0 +1,35 @@
+﻿
+
+@model MVC_Project.ViewModels.RoleViewModel
+
+<div class="container" style="height: 100vh;">
+    <div class="row justify-content-center align-items-center h-100">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header text-center" style="color: darkblue;">
+                    Create New Role
+                </div>
+                <div class="card-body">
+                    <form asp-action="NewRole">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="RoleName" class="control-label"></label>
+                            <input asp-for="RoleName" class="form-control" />
+                            <span asp-validation-for="RoleName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group text-center mt-3">
+                            <input type="submit" value="Create" class="btn btn-outline-dark" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

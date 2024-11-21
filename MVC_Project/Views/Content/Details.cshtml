@@ -1,0 +1,34 @@
+﻿
+
+ @model Match
+
+<div class="card" style="height:300px;display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+    <h1 style="color:darkred" class="card-title">@Model.TeamA VS @Model.TeamB</h1>
+    <h6 class="card-text">Date: @Model.Date</h6>
+    <h6 class="card-text">Available Tickets: @Model.AvailableTickets</h6>
+    <button class="btn btn-outline-dark" data-toggle="modal" data-target="#confirmModal">Book Ticket</button>
+</div>
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirm Booking</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to book a ticket for this match?</p>
+                <h6>@Model.TeamA VS @Model.TeamB</h6>
+                <p>Date: @Model.Date.ToString("MM/dd/yyyy")</p>
+                <p>Available Tickets: @Model.AvailableTickets</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <a href="@Url.Action("BookTicket", "Content", new { matchId = Model.Match_Id })" class="btn btn-primary">Confirm Booking</a>
+            </div>
+        </div>
+    </div>
+</div>
